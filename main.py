@@ -52,7 +52,7 @@ def scrape_wikipedia(url, platform):
             df.drop(columns[i], axis=1, inplace=True)
 
     now = datetime.datetime.now()
-    filename = f"{now.strftime('%Y-%m')}/{platform}_top_50_{now.strftime('%Y-%m-%d_%H-%M-%S')}.csv"
+    filename = f"{now.strftime('%Y-%m')}/{platform}_top_50_{now.strftime('%Y-%m-%d')}.csv"
     os.makedirs(os.path.dirname(filename), exist_ok=True)
     df.to_csv(filename, index=False)
 
