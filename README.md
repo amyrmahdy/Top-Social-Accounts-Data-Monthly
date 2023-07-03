@@ -97,9 +97,4 @@ Author: **amyrmahdy**
 
 Date: **3 Jul 2023**
 
-## Monthly Updates
-
-The dataset is updated on a monthly basis. On the 3rd day of each month, the script automatically scrapes the updated data for that month's rankings and saves it as a new CSV file in the corresponding monthly directory.
-
-
 
