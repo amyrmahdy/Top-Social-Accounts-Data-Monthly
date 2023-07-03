@@ -46,8 +46,10 @@ def scrape_wikipedia(url, platform):
         rows.append(row)
 
     df = pd.DataFrame(rows, columns=columns)
-    if "Brandaccount" in columns:
-        df.drop(["Brandaccount"], axis=1, inplace=True)
+    for i in range(len(columns)):
+        lower = columns[i].lower()
+        if "brand" in lower:
+            df.drop(columns[i], axis=1, inplace=True)
 
     now = datetime.datetime.now()
     filename = f"{now.strftime('%Y-%m')}/{platform}_top_50_{now.strftime('%Y-%m-%d_%H-%M-%S')}.csv"
