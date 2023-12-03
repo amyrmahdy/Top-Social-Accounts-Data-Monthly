@@ -84,7 +84,7 @@ The data in this dataset is obtained from the Wikipedia pages of the respective 
 ## Accessing the Data on Kaggle
 
 You can access the dataset on Kaggle by visiting the following link:
-[Monthly Top 50 Social Media Accounts Dataset](https://www.kaggle.com/datasets/amyrmahdy/monthly-top-50-social-media-accounts)
+[Monthly Top 50 Social Media Accounts Dataset](https://www.kaggle.com/datasets/amyrmahdy/monthly-top-50-social-media-accounts-dataset)
 
 ## License
 
